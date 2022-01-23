@@ -64,12 +64,10 @@ public class StepDefination extends Utils {
     @When("user calls {string} with {string} http request")
     public void user_calls_with_http_request(String resource, String method) {
 
-        //constructor will be called with value of resource which you pass
         APIResources resourceAPI = APIResources.valueOf(resource);
 
         resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
-        // method will be passed based on the method parameter passed from feature file
         response = res.request(method, resourceAPI.getResource());
 
     }

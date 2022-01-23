@@ -27,12 +27,12 @@ Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 204
-Etag: W/"cc-A4ZCXiWqrioM2UhSe5ovmOIIHBc"
-Date: Sat, 22 Jan 2022 20:55:30 GMT
+Etag: W/"cc-aFzZAWgToXjFe6FP7BhEKqi9R7I"
+Date: Sun, 23 Jan 2022 12:32:00 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 16,
+    "bookingid": 11,
     "booking": {
         "firstname": "sam",
         "lastname": "schaap",
@@ -46,12 +46,12 @@ Via: 1.1 vegur
     }
 }
 Request method:	GET
-Request URI:	https://restful-booker.herokuapp.com/booking/16
+Request URI:	https://restful-booker.herokuapp.com/booking/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=16
+Path params:	id=11
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -64,7 +64,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 177
 Etag: W/"b1-6/1QnzAHBKFwL6Q1UZ5RRPOMOL8"
-Date: Sat, 22 Jan 2022 20:55:31 GMT
+Date: Sun, 23 Jan 2022 12:32:03 GMT
 Via: 1.1 vegur
 
 {
@@ -100,21 +100,21 @@ Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
-Etag: W/"1b-d9Ktd5hBXcEu1cQicv4T1TONg4o"
-Date: Sat, 22 Jan 2022 20:55:32 GMT
+Etag: W/"1b-a5WKQJrKNSKXGkQ6KP+xbeg2yLU"
+Date: Sun, 23 Jan 2022 12:32:04 GMT
 Via: 1.1 vegur
 
 {
-    "token": "e1ecc6a8c68fd0f"
+    "token": "c8dcbbeb3439414"
 }
 Request method:	PUT
-Request URI:	https://restful-booker.herokuapp.com/booking/16
+Request URI:	https://restful-booker.herokuapp.com/booking/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=16
-Headers:		Cookie=token=e1ecc6a8c68fd0f
+Path params:	id=11
+Headers:		Cookie=token=c8dcbbeb3439414
 				Accept=application/json
 				Authorisation=Basic YWRtaW46cGFzc3dvcmQxMjM=]
 				Content-Type=application/json
@@ -139,7 +139,7 @@ X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 179
 Etag: W/"b3-QmEVI3/IlBhCx7FZzRGbnIYRVQM"
-Date: Sat, 22 Jan 2022 20:55:33 GMT
+Date: Sun, 23 Jan 2022 12:32:06 GMT
 Via: 1.1 vegur
 
 {
@@ -154,13 +154,13 @@ Via: 1.1 vegur
     "additionalneeds": "lunch,breakfast"
 }
 Request method:	PATCH
-Request URI:	https://restful-booker.herokuapp.com/booking/16
+Request URI:	https://restful-booker.herokuapp.com/booking/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=16
-Headers:		Cookie=token=e1ecc6a8c68fd0f
+Path params:	id=11
+Headers:		Cookie=token=c8dcbbeb3439414
 				Accept=application/json
 				Authorisation=Basic YWRtaW46cGFzc3dvcmQxMjM=]
 				Content-Type=application/json
@@ -180,8 +180,8 @@ Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 175
-Etag: W/"af-yRdNF7j17AYmeU2lGe7R4UGFT68"
-Date: Sat, 22 Jan 2022 20:55:34 GMT
+Etag: W/"af-LaWrFV+pEcx12pQ7+lx5FHxaby8"
+Date: Sun, 23 Jan 2022 12:32:07 GMT
 Via: 1.1 vegur
 
 {
@@ -190,19 +190,19 @@ Via: 1.1 vegur
     "totalprice": 200,
     "depositpaid": true,
     "bookingdates": {
-        "checkin": "2022-01-22",
-        "checkout": "2022-01-22"
+        "checkin": "2022-01-23",
+        "checkout": "2022-01-23"
     },
     "additionalneeds": "lunch,breakfast"
 }
 Request method:	DELETE
-Request URI:	https://restful-booker.herokuapp.com/booking/16
+Request URI:	https://restful-booker.herokuapp.com/booking/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=16
-Headers:		Cookie=token=e1ecc6a8c68fd0f
+Path params:	id=11
+Headers:		Cookie=token=c8dcbbeb3439414
 				Accept=application/json
 				Authorisation=Basic YWRtaW46cGFzc3dvcmQxMjM=]
 				Content-Type=application/json
@@ -216,17 +216,17 @@ X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 7
 Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
-Date: Sat, 22 Jan 2022 20:55:35 GMT
+Date: Sun, 23 Jan 2022 12:32:08 GMT
 Via: 1.1 vegur
 
 Created
 Request method:	GET
-Request URI:	https://restful-booker.herokuapp.com/booking/16
+Request URI:	https://restful-booker.herokuapp.com/booking/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=16
+Path params:	id=11
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -239,7 +239,7 @@ X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 9
 Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
-Date: Sat, 22 Jan 2022 20:55:35 GMT
+Date: Sun, 23 Jan 2022 12:32:09 GMT
 Via: 1.1 vegur
 
 Not Found
